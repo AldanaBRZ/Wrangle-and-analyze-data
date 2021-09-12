@@ -14273,7 +14273,6 @@ a.anchor-link {
 <li>Data Gathering</li>
 <li>Data Assessment</li>
 <li>Data Cleaning</li>
-<li>Data Visualization</li>
 </ol>
 
 </div>
@@ -14337,8 +14336,6 @@ a.anchor-link {
 </li>
 <li><p>Dog stage <em>floofer</em> should be <em>floof</em></p>
 </li>
-<li><p>Dog stages (<code>doggo</code>, <code>floofer</code>, <code>pupper</code>, <code>puppo</code>) should be in one column (such as one named <code>stages</code>)</p>
-</li>
 <li><p><code>timestamp</code> should be <em>datetime64</em> dtype.</p>
 </li>
 <li><p>In the <code>name</code> column there are a lot of missing values (<em>None</em>) and some values that don't make sense (like <em>a</em>).</p>
@@ -14377,6 +14374,7 @@ a.anchor-link {
 <li><p><code>df_twit_arch</code></p>
 <ul>
 <li><code>source</code> has too much information in it, and it's too cluttered. </li>
+<li>Dog stages (<code>doggo</code>, <code>floofer</code>, <code>pupper</code>, <code>puppo</code>) should be in one column (such as one named <code>stages</code>)</li>
 </ul>
 </li>
 </ul>
@@ -14409,61 +14407,6 @@ a.anchor-link {
 <li>Merged the new dataframe and images into a <em>master dataset</em>.</li>
 </ul>
 </li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="4.-Data-Visualization">4. Data Visualization<a class="anchor-link" href="#4.-Data-Visualization">&#182;</a></h4>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li>I asked the following questions and got the following insights:<ul>
-<li>Are retweets and favourites related?<ul>
-<li>They are positively correlated. Most values are between 0 and 10k retweets, and between 0 and 40k favourites. There are also some very large outliers.</li>
-</ul>
-</li>
-<li>What are the ten most frequent dog breeds?<ul>
-<li>From prediction 1:<ul>
-<li>Golden Retriever, Labrador Retriever, Pembroke, Chihuahua, Pug, Chow, Samoyed, Pomeranian, Toy Poodle, Malamute.</li>
-</ul>
-</li>
-<li>From prediction 2:<ul>
-<li>Labrador Retriever, Golden Retriever, Cardigan, Chihuahua, Chesapeake Bay Retriever, French Bulldog, Pomeranian, Toy Poodle, Siberian Husky, Cocker Spaniel. </li>
-</ul>
-</li>
-<li>From prediction 3:<ul>
-<li>Labrador Retriever, Chihuahua, Golden Retriever, Eskimo Dog, Kelpie, Kuvasz, Chow, Staffordshire Bull Terrier, Beagle, Toy Poodle.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>What are the ten most common dog names? <ul>
-<li>Charlie, Lucy, Cooper, Oliver, Penny, Tucker, Sadle, Winston, Daisy and Lola.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Insights:">Insights:<a class="anchor-link" href="#Insights:">&#182;</a></h4>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
-<li>Favourites count and Retweets count are positively correlated.</li>
-<li>The most frequent dog breed in p1 is Golden Retriever.</li>
-<li>The most frequent dog breed in p2 is Labrador Retriever.</li>
-<li>The most frequent dog breed in p3 is Labrador Retriever.</li>
-<li>The most common dog name is Charlie (male), followed by Lucy (female). </li>
 </ul>
 
 </div>
